@@ -23,7 +23,7 @@ const Hero: FC = () => {
                 >
                     
                 </motion.div>
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-black/80" />
 
                 <motion.div className="absolute flex flex-col space-y-2 sm:space-y-3 md:space-y-5 text-md sm:text-2xl  lg:text-4xl  h-screen text-[var(--text-element-small)] justify-end left-5 pb-10 z-50 items-end 2xl:text-6xl 2xl:space-y-10 ml-2"
                 initial= {{ opacity:0, y: -70,x : -20 }}
@@ -40,7 +40,7 @@ const Hero: FC = () => {
                 initial= {{ opacity:0, y: -100 }}
                     animate = {{opacity : 1, y: 0}}
                     transition={{ duration:1, delay:0.6}}
-                >Taste the Tradition.</motion.h1>
+                >Sienna.</motion.h1>
                 <motion.h3 className='mt-2 sm:mt-4 text-sm sm:text-2xl 2xl:text-5xl text-[var(--text-element-small)]'
                 initial= {{ opacity:0, y: -100 }}
                 animate = {{opacity : 1, y: 0}}
@@ -50,7 +50,7 @@ const Hero: FC = () => {
                 
                     sequence={
                         [
-                            "Serving authentic flavors with a modern twist. book your table today.",1000,"",400
+                            "Taste Italy.",1000,"",400
                         ]
                     }
                     wrapper='span'
